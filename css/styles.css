@@ -1,0 +1,81 @@
+/****************************<TAG> </SELECTORS>****************************/
+a:link {
+  text-decoration: underline;
+  color: #B2B8A3;
+}
+
+a:visited {
+  color: #F4C7AB;
+}
+
+body {
+  background-color: #FFF5EB;
+  color: #777777;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+  background-color: #fffaf5;
+  border: 1px solid;
+  border-radius: 25px;
+}
+input[type=email] {
+  background-color: #fffaf5;
+  border: 1px solid;
+  border-radius: 25px;
+}
+
+head{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #b5e2eb;
+}
+
+h2 {
+  color: #b5e2eb;
+}
+
+h3 {
+  color: #b5e2eb;
+}
+
+h4 {
+  color: #b5e2eb;
+}
+
+h6 {
+  margin: 0;
+}
+
+hr {
+  border-style: dotted;
+  width: 5%;
+  border-top-width: 10px;
+  border-top-color: #dddddd;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  padding: 0;
+}
+
+textarea{
+  background-color: #fffaf5;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+/****************************.CLASS SELECTORS****************************/
+.profile-photo {
+  height: 200px;
+  width: 200px;
+  background: url("../images/circled-profile-photo.png") no-repeat;
+}
+.profile-photo:hover {
+  height: 200px;
+  width: 200px;
+  background: url("../images/circled-saitama.png") no-repeat;
+}
+
+/****************************#ID SELECTORS****************************/
